@@ -1,38 +1,81 @@
 .App {
-  text-align: center;
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner_image {
+    position: relative;
+    line-height: 1.6;
+    background-image: linear-gradient(
+            to bottom right,
+            rgba(30, 30, 29, 0.88),
+            rgba(69, 68, 67, 0.669)
+        ),
+        url(./assets/austin-distel-wD1LRb9OeEo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    background-attachment: fixed;
+}
+.about_info {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+}
+.vertical_line {
+    width: 90%;
+    margin: auto;
+    border-left: 2px solid #dfdfde;
+    height: 100px;
+    display: flex; /* ensure the container is a flex container */
+    align-items: center; /* center the button vertically */
+}
+.vertical_line Button {
+    margin-left: 10px; /* add a left margin of 10px */
+}
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: #dfdfde;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-img-top:hover {
+    /* transform: scale(1.2); */
+    padding: 3px;
+    transition: all 0.3s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.programming-language-container {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(180, 178, 178, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 1;
 }
-
-.App-link {
-  color: #61dafb;
+.programming_language_image {
+    height: 100px;
+    width: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.programming-language-container img:hover {
+    padding: 3px;
+    /* margin-top: -5px; */
+    transition: all 0.3s;
+}
+.get_in_touch_social {
+    width: 100px;
+    cursor: pointer;
+    border-radius: 200px;
+}
+.get_in_touch_social:hover {
+    padding: 5px;
+    transition: all 0.8s;
 }
