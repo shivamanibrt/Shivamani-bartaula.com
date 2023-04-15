@@ -6,17 +6,24 @@ import { RecentWork } from './Components/RecentWork';
 import { GetInTouch } from './Components/GetInTouch.js';
 import { TechStack } from './Components/TechStack';
 import { FooterFile } from './Components/FooterFile';
+import ContactUsFile from './Components/ContactUsFile';
+import { useState } from 'react';
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
+  const handleThemeChange = () => {
+    setIsDarkMode(!isDarkMode);
+  }
   return (
     <>
-      <NavigationBarFile />
-      <AboutUs />
-      <RecentWork />
-      <GetInTouch />
-      <TechStack />
-      <FooterFile />
-
+      <NavigationBarFile handleThemeChange={handleThemeChange} isDarkMode={isDarkMode} />
+      <AboutUs isDarkMode={isDarkMode} />
+      <RecentWork isDarkMode={isDarkMode} />
+      <TechStack isDarkMode={isDarkMode} />
+      <GetInTouch isDarkMode={isDarkMode} />
+      <ContactUsFile isDarkMode={isDarkMode} />
+      <FooterFile isDarkMode={isDarkMode} />
     </>
   );
 }

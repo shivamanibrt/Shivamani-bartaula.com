@@ -5,19 +5,21 @@ import twitterImg from '../icon/twitter.png';
 import hashnodeImg from '../icon/hashnode.png';
 import githubImg from '../icon/icons8-github-480.png';
 
-export const GetInTouch = () => {
+export const GetInTouch = ({ isDarkMode }) => {
     const linkedin = 'https://www.linkedin.com/in/shivamanibrt/';
     const twitter = 'https://twitter.com/Aayush_Bartaula';
     const hashnode = 'https://aayushbartaula.hashnode.dev/';
     const github = 'https://github.com/shivamanibrt';
     const email = "shivamanibrt03350@gmail.com";
     const mailto = `mailto:${email}`;
+    const bgStyle = isDarkMode ? { backgroundColor: '#212529' } : {};
+    const titleStyle = isDarkMode ? { color: 'white' } : { color: '#332D2D' };
 
     return (
         <>
-            <div className='bg-dark p-4'>
+            <div className=' p-4' style={bgStyle}>
                 <div className='d-flex justify-content-center text-light p-4'>
-                    <Row ><h2 > Get in touch</h2></Row>
+                    <Row ><h2 style={titleStyle}> Get in touch</h2></Row>
                 </div>
                 <Container>
                     <Row className='d-flex flex-wrap'>
@@ -46,7 +48,7 @@ export const GetInTouch = () => {
 
                     <Row>
                         <div className='text-light text-center p-4'>
-                            <Row><h1 class="or">OR</h1></Row>
+                            <Row><h1 class="or" style={titleStyle}>OR</h1></Row>
                         </div>
                     </Row>
 

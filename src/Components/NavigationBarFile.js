@@ -6,13 +6,7 @@ import { useState } from 'react';
 import myPdf from "../assets/Shivamani-Bartaula-cv_1.pdf";
 import { Button } from 'react-bootstrap';
 
-export const NavigationBarFile = () => {
-    const [isDarkMode, setIsDarkMode] = useState(true);
-
-    const handleThemeChange = () => {
-        setIsDarkMode(!isDarkMode);
-    }
-
+export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
 
     return (
         <>

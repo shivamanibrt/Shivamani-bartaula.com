@@ -11,7 +11,7 @@ import randomNumberImg from '../assets/randomNumberGenerator.png'
 
 
 
-export const RecentWork = () => {
+export const RecentWork = ({ isDarkMode }) => {
     // const github = 'https://shivamanibrt.github.io/to-do-list-application/';
     const movieCard = 'https://movie-list-nine-vert.vercel.app/';
     const expenseTracker = 'https://expense-tracker-using-reduc.vercel.app/';
@@ -22,12 +22,14 @@ export const RecentWork = () => {
     const pigGame = 'https://pig-game-js-lake.vercel.app/';
     const randomNumberGenerator = 'https://random-number-generator-js-seven.vercel.app/';
 
+    const bgStyle = isDarkMode ? { backgroundColor: '#212529' } : {};
+    const titleStyle = isDarkMode ? { color: 'white' } : { color: '#332D2D' };
 
     return (
-        <div className='bg-dark p-2'>
+        <div className='p-2' style={bgStyle}>
 
             <div className='d-flex justify-content-center text-light p-4'>
-                <Row ><h2 > Recent Work</h2></Row>
+                <Row ><h2 style={titleStyle}>Recent Work</h2></Row>
             </div>
             <Row className='d-flex gap-3 flex-wrap justify-content-around'>
                 <Col xs={12} sm={5} md={4} lg={3}>
@@ -35,7 +37,7 @@ export const RecentWork = () => {
                         <Card>
                             <Card.Img variant="top" src={movieCardImg} style={{ height: '200px' }} />
                             <Card.Body>
-                                <Card.Title className='d-flex justify-content-center'>Movie Collection</Card.Title>
+                                <Card.Title className='d-flex justify-content-center' >Movie Collection</Card.Title>
                             </Card.Body>
                         </Card>
                     </a>
