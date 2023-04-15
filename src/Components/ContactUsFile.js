@@ -3,8 +3,10 @@ import emailjs from "emailjs-com";
 import { Row, Col, Toast } from "react-bootstrap";
 
 const ContactUsFile = ({ isDarkMode }) => {
-    const bgStyle = isDarkMode ? { backgroundColor: '#212529' } : {};
-    const titleStyle = isDarkMode ? { color: 'white' } : { color: '#332D2D' };
+    const bgStyle = isDarkMode ? { backgroundColor: '#212529' } : { backgroundColor: 'rgb(244, 241, 241)' };
+    const titleStyle = isDarkMode ? {
+        color: 'rgb(244, 241, 241)'
+    } : { color: '#332D2D' };
     const form = useRef();
     const [formData, setFormData] = useState({
         user_name: "",
