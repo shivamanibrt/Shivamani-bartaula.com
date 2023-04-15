@@ -1,6 +1,10 @@
 .App {
     height: 100vh;
 }
+.navbar-brand-red:hover {
+    color: #dc3545 !important;
+    transition: all 0.4s;
+}
 
 .banner_image {
     position: relative;
@@ -78,4 +82,8 @@ h2::after {
 .get_in_touch_social:hover {
     padding: 5px;
     transition: all 0.8s;
+}
+.emailContainer a:hover {
+    color: #000 !important;
+    transition: all 0.3s;
 }

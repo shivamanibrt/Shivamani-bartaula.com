@@ -10,7 +10,8 @@ export const GetInTouch = () => {
     const twitter = 'https://twitter.com/Aayush_Bartaula';
     const hashnode = 'https://aayushbartaula.hashnode.dev/';
     const github = 'https://github.com/shivamanibrt';
-    const mailto = "mailto:shivamanibrt03350@gmail.com"
+    const email = "shivamanibrt03350@gmail.com";
+    const mailto = `mailto:${email}`;
 
     return (
         <>
@@ -51,15 +52,11 @@ export const GetInTouch = () => {
 
 
                     <Row>
-                        <Container className='bg-danger text-center p-4 rounded-5 text-light d-flex justify-content-center'>
-                            <h3 className="email d-flex align-items-center">
-                                <a href={mailto} className="text-light text-decoration-none">
-                                    shivamanibrt03350@gmail.com
+                        <Container className='emailContainer text-center rounded-5 text-light d-flex justify-content-center'>
+                            <h3 className="email p-3 bg-danger rounded-5 p-4 ">
+                                <a href={mailto} className="text-light text-decoration-none me-2 p-1">
+                                    {email} <i className="fa-solid fa-envelope"></i>
                                 </a>
-                                <ion-icon
-                                    class="arrow"
-                                    name="arrow-forward-circle-outline"
-                                ></ion-icon>
                             </h3>
                         </Container>
                     </Row>

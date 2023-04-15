@@ -18,7 +18,9 @@ export const NavigationBarFile = () => {
         <>
             <Navbar collapseOnSelect expand="lg" bg={isDarkMode ? "dark" : "light"} variant={isDarkMode ? "dark" : "light"} >
                 <Container>
-                    <Navbar.Brand href="#home">Shivamani</Navbar.Brand>
+                    <Navbar.Brand href="#home" className="navbar-brand-red">
+                        Shivamani
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
