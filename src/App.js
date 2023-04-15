@@ -1,4 +1,6 @@
 import './App.css';
+import './Style components/Navigation.css'
+// import './Style components/AboutUs.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavigationBarFile } from './Components/NavigationBarFile';
 import { AboutUs } from './Components/AboutUs';

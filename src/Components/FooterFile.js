@@ -15,22 +15,22 @@ export const FooterFile = ({ isDarkMode }) => {
                     <Row className='justify-content-center'>
                         <Col>
                             <a href={linkedin} target='_blank' rel='noreferrer'>
-                                <i className='fa-brands fa-linkedin ' alt='hashnode'></i>
+                                <i className='fa-brands fa-linkedin fa-xl ' alt='hashnode'></i>
                             </a>
                         </Col>
                         <Col>
                             <a href={hashnode} target='_blank' rel='noreferrer'>
-                                <i className='fa-brands fa-hashnode' alt='hashnode'></i>
+                                <i className='fa-brands fa-hashnode fa-xl' alt='hashnode'></i>
                             </a>
                         </Col>
                         <Col>
                             <a href={twitter} target='_blank' rel='noreferrer'>
-                                <i className='fa-brands fa-twitter ' alt='twitter'></i>
+                                <i className='fa-brands fa-twitter fa-xl' alt='twitter'></i>
                             </a>
                         </Col>
                         <Col>
                             <a href={github} target='_blank' rel='noreferrer'>
-                                <i className='fa-brands fa-github ' alt='github'></i>
+                                <i className='fa-brands fa-github fa-xl' alt='github'></i>
                             </a>
                         </Col>
                     </Row>

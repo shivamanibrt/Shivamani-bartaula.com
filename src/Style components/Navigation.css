@@ -1,0 +1,4 @@
+.navbar-brand-red:hover {
+    color: #dc3545 !important;
+    transition: all 0.4s;
+}

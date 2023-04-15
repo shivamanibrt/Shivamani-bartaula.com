@@ -2,7 +2,6 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { useState } from 'react';
 import myPdf from "../assets/Shivamani-Bartaula-cv_1.pdf";
 import { Button } from 'react-bootstrap';
 

@@ -19,9 +19,9 @@ export const AboutUs = () => {
                             <h1>Shivamani Bartaula</h1>
                             <h3>
                                 A
-                                <span style={{ color: '#2192ff' }}>Web Developer</span>
+                                <span style={{ color: '#2192ff' }}> Web Developer </span>
                                 From
-                                <span style={{ color: '#ff7f3f' }}>Sydney</span>
+                                <span style={{ color: '#ff7f3f' }}> Sydney </span>
                             </h3>
                         </div>
                         <div class="vertical_line">
@@ -39,17 +39,34 @@ export const AboutUs = () => {
                 </Modal.Header>
                 <Modal.Body>
                     <p class="para">
-                        Hi, I am Shivamani, a software engineer with one year of
-                        experience in front-end web development and desktop
-                        support. I am seeking an entry-level position in the IT
-                        industry with full-time working rights in Australia
-                        under a 485 Visa.
+                        Hi, I am Shivamani, a software engineer with 1 year of experience in
+                        frontend web development. I help businesses build digital solutions
+                        using Bootstrap, JavaScript (React.js), and Redux. I am passionate
+                        about building scalable products that are valuable to users.
                     </p>
-                    <p class="para">I specialise in the following.</p>
-                    <p class="para">
-                        HTML | CSS | JavaScript (React.js)| WordPress | Figma.
-                    </p>
-                    <p class="para">Desktop support | Customer support</p>
+                    <p class="para">Full-time working right up to April 2025</p>
+                    <h3>Experience</h3>
+                    <p><b>Software Engineer AuTechJobs.com / Sydney / January, 2023 - Present
+                    </b></p>
+                    <ul>
+                        <li>Standardized theme development process which
+                            improved consistency and scalability.</li>
+                        <li>Increased code coverage from 80% to 84% using
+                            the javascript testing library and jest</li>
+                        <li>Devised onboarding work</li>
+                    </ul>
+                    <p><b>WoodongaUrbanLandcare.com / Melbourne / March, 2022 -
+                        October, 2022
+                    </b></p>
+                    <ul>
+                        <li>Developed and customized a WordPress website
+                            from scratch using DIVI for Wodonga Urban
+                            Landcare Melbourne as a major college project.</li>
+                        <li>Applied Agile scrum development methodology
+                            which enabled faster release of features and </li>
+                    </ul>
+
+
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={() => setModalShow(false)}>Close</Button>
