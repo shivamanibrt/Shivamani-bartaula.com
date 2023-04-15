@@ -112,16 +112,7 @@ export const RecentWork = ({ isDarkMode }) => {
                         </Card>
                     </a>
                 </Col>
-                <Col xs={12} sm={5} md={4} lg={3}>
-                    <a className="text-decoration-none" href='#' target="_blank" rel="noreferrer">
-                        <Card>
-                            <Card.Img variant="top" src={''} style={{ height: '200px' }} />
-                            <Card.Body>
-                                <Card.Title className='d-flex justify-content-center'>Comming Soon</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </a>
-                </Col>
+
             </Row>
         </div >
     )

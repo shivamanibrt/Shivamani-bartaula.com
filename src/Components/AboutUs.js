@@ -54,7 +54,7 @@ export const AboutUs = () => {
                 <Modal.Footer>
                     <Button variant="secondary" onClick={() => setModalShow(false)}>Close</Button>
                 </Modal.Footer>
-            </Modal>
+            </Modal >
         </>
     );
 };
