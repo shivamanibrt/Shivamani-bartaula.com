@@ -10,6 +10,7 @@ import { TechStack } from './Components/TechStack';
 import { FooterFile } from './Components/FooterFile';
 import ContactUsFile from './Components/ContactUsFile';
 import { useState } from 'react';
+import { Row } from 'react-bootstrap';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -18,7 +19,7 @@ function App() {
     setIsDarkMode(!isDarkMode);
   }
   return (
-    <>
+    <Row>
       <NavigationBarFile handleThemeChange={handleThemeChange} isDarkMode={isDarkMode} />
       <AboutUs isDarkMode={isDarkMode} />
       <RecentWork isDarkMode={isDarkMode} />
@@ -26,7 +27,7 @@ function App() {
       <GetInTouch isDarkMode={isDarkMode} />
       <ContactUsFile isDarkMode={isDarkMode} />
       <FooterFile isDarkMode={isDarkMode} />
-    </>
+    </Row>
   );
 }
 
