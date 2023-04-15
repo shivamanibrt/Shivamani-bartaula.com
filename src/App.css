@@ -162,7 +162,7 @@ h2::after {
 }
 
 .fa-brands {
-    color: white;
+    color: rgb(244, 241, 241);
 }
 .fa-brands:hover {
     color: #8a87876c;

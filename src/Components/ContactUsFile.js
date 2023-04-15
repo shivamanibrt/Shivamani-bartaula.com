@@ -49,12 +49,12 @@ const ContactUsFile = ({ isDarkMode }) => {
 
     return (
         <>
-            <div className=' p-4' style={bgStyle}>
+            <div className='p-4  rounded' style={bgStyle}>
                 <Row className="text-light">
                     <Col xs={12} md={8} className="mx-auto">
                         <div className="email-form p-5 rounded">
                             <h2 className="text-center mb-4" style={titleStyle}>Send Message</h2>
-                            <form ref={form} onSubmit={sendEmail}>
+                            <form ref={form} onSubmit={sendEmail} className="shadow-lg p-5 rounded-2">
                                 <div className="form-group mb-3">
                                     <label htmlFor="user_name"><h4 style={titleStyle}>Full Name</h4></label>
                                     <input
@@ -88,6 +88,7 @@ const ContactUsFile = ({ isDarkMode }) => {
                                         name="message"
                                         id="message"
                                         rows="6"
+                                        style={{ resize: "none" }}
                                         value={formData.message}
                                         onChange={handleInputChange}
                                     ></textarea>

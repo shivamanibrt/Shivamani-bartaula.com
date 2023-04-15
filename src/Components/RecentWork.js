@@ -103,7 +103,7 @@ export const RecentWork = ({ isDarkMode }) => {
                     </a>
                 </Col>
                 <Col xs={12} sm={5} md={4} lg={3}>
-                    <a className="text-decoration-none" href={pigGame} target="_blank" rel="noreferrer">
+                    <a className="text-decoration-none" href={'pigGame'} target="_blank" rel="noreferrer">
                         <Card>
                             <Card.Img variant="top" src={pigGameImg} style={{ height: '200px' }} />
                             <Card.Body>
@@ -113,11 +113,11 @@ export const RecentWork = ({ isDarkMode }) => {
                     </a>
                 </Col>
                 <Col xs={12} sm={5} md={4} lg={3}>
-                    <a className="text-decoration-none" href={pigGame} target="_blank" rel="noreferrer">
+                    <a className="text-decoration-none" href='#' target="_blank" rel="noreferrer">
                         <Card>
-                            <Card.Img variant="top" src={pigGameImg} style={{ height: '200px' }} />
+                            <Card.Img variant="top" src={''} style={{ height: '200px' }} />
                             <Card.Body>
-                                <Card.Title className='d-flex justify-content-center'>Pig Game</Card.Title>
+                                <Card.Title className='d-flex justify-content-center'>Comming Soon</Card.Title>
                             </Card.Body>
                         </Card>
                     </a>

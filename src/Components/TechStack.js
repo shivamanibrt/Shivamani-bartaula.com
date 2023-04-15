@@ -12,16 +12,16 @@ import reduxImg from '../icon/redux.png'
 
 
 export const TechStack = ({ isDarkMode }) => {
-    const bgStyle = isDarkMode ? { backgroundColor: '#212529' } : {};
-    const titleStyle = isDarkMode ? { color: 'white' } : { color: '#332D2D' };
+    const bgStyle = isDarkMode ? { backgroundColor: '#212529' } : { backgroundColor: 'rgb(244, 241, 241)' };
+    const titleStyle = isDarkMode ? { color: 'rgb(244, 241, 241)' } : { color: '#332D2D' };
     return (
         <>
-            <div className=' p-2' style={bgStyle}>
+            <div className='p-5' style={bgStyle}>
                 <div className='d-flex justify-content-center text-light p-4'>
                     <Row ><h2 style={titleStyle}> Tech Stack</h2></Row>
                 </div>
                 <Container>
-                    <Row className="programming-language-container d-flex flex-wrap">
+                    <Row className="shadow-lg p-2 programming-language-container d-flex flex-wrap">
                         <Col>
                             <img class="programming_language_image" src={htmlImg} alt="htmlImg" />
                         </Col>
