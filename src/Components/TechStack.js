@@ -7,7 +7,7 @@ import reactImg from '../icon/icons8-react-native-480.png';
 import wordpressImg from '../icon/icons8-wordpress-480.png'
 import figmaImg from '../icon/icons8-figma-480.png';
 import gitImg from '../icon/icons8-git-480.png'
-import reduxImg from '../icon/redux.png'
+import reduxImg from '../icon/redux-original.svg'
 
 
 
