@@ -78,6 +78,7 @@ h2::after {
     width: 100px;
     cursor: pointer;
     border-radius: 200px;
+    text-align: center;
 }
 .get_in_touch_social:hover {
     padding: 5px;

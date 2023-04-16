@@ -10,7 +10,7 @@ export const FooterFile = ({ isDarkMode }) => {
     const bgStyle = isDarkMode ? { backgroundColor: '#454545' } : { backgroundColor: '#332D2D' };
     return (
         <>
-            <div className='p-5' style={bgStyle}>
+            <div className='p-3' style={bgStyle}>
                 <Container className='justify-content-center '>
                     <Row className='justify-content-center'>
                         <Col>

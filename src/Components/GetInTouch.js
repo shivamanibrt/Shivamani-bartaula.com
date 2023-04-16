@@ -22,7 +22,7 @@ export const GetInTouch = ({ isDarkMode }) => {
                     <Row ><h2 style={titleStyle}> Get in touch</h2></Row>
                 </div>
                 <Container>
-                    <Row className='d-flex flex-wrap'>
+                    <Row className='d-flex flex-wrap align-items-center'>
                         <Col>
                             <a href={linkedin} target="_blank" rel="noreferrer">
                                 <img src={linkedinImg} class="get_in_touch_social" alt="LinkedIn" />
@@ -51,7 +51,6 @@ export const GetInTouch = ({ isDarkMode }) => {
                         </div>
                     </Row>
 
-
                     <Row>
                         <Container className='emailContainer text-center rounded-5 text-light d-flex justify-content-center'>
                             <h3 className="email p-3 bg-danger rounded-5 p-4 ">
@@ -61,8 +60,8 @@ export const GetInTouch = ({ isDarkMode }) => {
                             </h3>
                         </Container>
                     </Row>
+                </Container>
 
-                </Container >
             </div >
         </>
     )
