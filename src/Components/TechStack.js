@@ -16,7 +16,7 @@ export const TechStack = ({ isDarkMode }) => {
     const titleStyle = isDarkMode ? { color: 'rgb(244, 241, 241)' } : { color: '#332D2D' };
     return (
         <>
-            <div className='p-5 full-height' style={bgStyle}>
+            <div className='p-5' style={bgStyle}>
                 <div className='d-flex justify-content-center text-light p-4'>
                     <Row ><h2 style={titleStyle}> Tech Stack</h2></Row>
                 </div>

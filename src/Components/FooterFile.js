@@ -11,7 +11,7 @@ export const FooterFile = ({ isDarkMode }) => {
     return (
         <>
             <div className='p-5' style={bgStyle}>
-                <Container className='justify-content-center'>
+                <Container className='justify-content-center '>
                     <Row className='justify-content-center'>
                         <Col>
                             <a href={linkedin} target='_blank' rel='noreferrer'>

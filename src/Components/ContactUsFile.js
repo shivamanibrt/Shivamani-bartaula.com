@@ -51,8 +51,8 @@ const ContactUsFile = ({ isDarkMode }) => {
 
     return (
         <>
-            <div className='p-4 full-height' style={bgStyle}>
-                <Row className="text-light">
+            <div className='p-4 ' style={bgStyle}>
+                <Row className=" text-light">
                     <Col xs={12} md={8} className="mx-auto">
                         <div className="email-form p-5 rounded">
                             <h2 className="text-center mb-4" style={titleStyle}>Send Message</h2>
@@ -110,8 +110,8 @@ const ContactUsFile = ({ isDarkMode }) => {
                 <Toast
                     show={showToast}
                     onClose={() => setShowToast(false)}
-                    className="position-fixed bottom-0 end-0 m-3"
-                    delay={3000}
+                    className="position-fixed top-0 end-0 m-3"
+                    delay={1000}
                     autohide
                 >
                     <Toast.Body>Message sent!</Toast.Body>
