@@ -17,7 +17,7 @@ export const GetInTouch = ({ isDarkMode }) => {
 
     return (
         <>
-            <div className=' p-4' style={bgStyle}>
+            <div className=' p-4 full-height' style={bgStyle}>
                 <div className='d-flex justify-content-center text-light p-4'>
                     <Row ><h2 style={titleStyle}> Get in touch</h2></Row>
                 </div>
@@ -44,7 +44,6 @@ export const GetInTouch = ({ isDarkMode }) => {
                             </a>
                         </Col>
                     </Row>
-
 
                     <Row>
                         <div className='text-light text-center p-4'>

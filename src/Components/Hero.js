@@ -1,13 +1,9 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-// import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 
-export const AboutUs = () => {
+export const Hero = () => {
     const [modalShow, setModalShow] = React.useState(false);
-
-    // const [isDarkMode, setIsDarkMode] = useState(true);
-
 
     return (
         <>

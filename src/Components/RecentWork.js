@@ -10,7 +10,6 @@ import pigGameImg from '../assets/pigGame.png';
 import randomNumberImg from '../assets/randomNumberGenerator.png'
 
 
-
 export const RecentWork = ({ isDarkMode }) => {
     // const github = 'https://shivamanibrt.github.io/to-do-list-application/';
     const movieCard = 'https://movie-list-nine-vert.vercel.app/';

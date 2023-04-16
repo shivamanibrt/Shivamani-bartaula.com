@@ -51,7 +51,7 @@ const ContactUsFile = ({ isDarkMode }) => {
 
     return (
         <>
-            <div className='p-4' style={bgStyle}>
+            <div className='p-4 full-height' style={bgStyle}>
                 <Row className="text-light">
                     <Col xs={12} md={8} className="mx-auto">
                         <div className="email-form p-5 rounded">

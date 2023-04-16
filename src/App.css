@@ -1,7 +1,14 @@
 .App {
     height: 100vh;
 }
-
+.navbar-brand-red:hover {
+    color: #dc3545 !important;
+    transition: all 0.4s;
+}
+.full-height {
+    height: 75vh;
+    /* width: 100vw; */
+}
 .banner_image {
     position: relative;
     line-height: 1.6;

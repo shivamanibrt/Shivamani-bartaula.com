@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -6,22 +7,23 @@ import myPdf from "../assets/Shivamani-Bartaula-cv_1.pdf";
 import { Button } from 'react-bootstrap';
 
 export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
-
+    const hashnode = 'https://aayushbartaula.hashnode.dev/';
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg={isDarkMode ? "dark" : "light"} variant={isDarkMode ? "dark" : "light"}>
                 <Container >
-                    <Navbar.Brand href="#home" className="navbar-brand-red">
+                    <Navbar.Brand as={Link} to="all-component" className="navbar-brand-red">
                         Shivamani
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href='#a'>Home</Nav.Link>
-                            <Nav.Link href="#b">Portfolio</Nav.Link>
-                            <Nav.Link href="#c">Tech stack</Nav.Link>
-                            <Nav.Link href="#d">Blog</Nav.Link>
-                            <Nav.Link href="#e">Get in touch</Nav.Link>
+                            <Nav.Link as={Link} to="hero">About</Nav.Link>
+                            <Nav.Link as={Link} to="recentWork">Portfolio</Nav.Link>
+                            <Nav.Link as={Link} to="techStack">Skills</Nav.Link>
+                            <Nav.Link href={hashnode} target="_blank">Blog</Nav.Link>
+                            <Nav.Link as={Link} to="getInTouch">Get-in-touch</Nav.Link>
+                            <Nav.Link as={Link} to="contactUsFile">Contact-Form</Nav.Link>
                         </Nav>
                         <Nav>
                             <Nav.Link href={myPdf} onClick={() => window.open(myPdf)} target="_blank" >
@@ -39,8 +41,7 @@ export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
-            </Navbar>
-
+            </Navbar >
         </>
     );
 };
