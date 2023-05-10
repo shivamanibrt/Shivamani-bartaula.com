@@ -22,7 +22,6 @@ function App() {
     <>
       <Layout isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} >
         <Routes>
-
           <Route path='shivamani' element={<AllPages isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />} />
           <Route path='home' element={<AboutUs isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />} />
           <Route path='recentWork' element={<RecentWork isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />} />
