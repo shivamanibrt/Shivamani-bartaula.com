@@ -82,6 +82,7 @@ export const RecentWork = ({ isDarkMode }) => {
                         </Card>
                     </a>
                 </Col>
+
                 <Col xs={12} sm={5} md={4} lg={3}>
                     <a className="text-decoration-none" href={todoList} target="_blank" rel="noreferrer">
                         <Card>
