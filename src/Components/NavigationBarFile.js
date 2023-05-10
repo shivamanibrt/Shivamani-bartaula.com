@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import myPdf from "../assets/Shivamani-Bartaula-cv_1.pdf";
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { AllPages } from './AllPages/AllPages';
+
 
 
 export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {

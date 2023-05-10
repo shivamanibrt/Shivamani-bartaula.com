@@ -23,12 +23,12 @@ function App() {
       <Layout isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} >
         <Routes>
 
-          <Route path='shivamani' element={<AllPages />} />
-          <Route path='home' element={<AboutUs />} isDarkMode={isDarkMode} />
-          <Route path='recentWork' element={<RecentWork />} isDarkMode={isDarkMode} />
-          <Route path='techStack' element={<TechStack />} isDarkMode={isDarkMode} />
-          <Route path='getInTouch' element={<GetInTouch />} isDarkMode={isDarkMode} />
-          <Route path='contactUsFile' element={<ContactUsFile />} isDarkMode={isDarkMode} />
+          <Route path='shivamani' element={<AllPages isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />} />
+          <Route path='home' element={<AboutUs isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />} />
+          <Route path='recentWork' element={<RecentWork isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />} />
+          <Route path='techStack' element={<TechStack isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />} />
+          <Route path='getInTouch' element={<GetInTouch isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />} />
+          <Route path='contactUsFile' element={<ContactUsFile isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />} />
         </Routes>
       </Layout>
     </>
