@@ -1,0 +1,34 @@
+.banner_image {
+    position: relative;
+    line-height: 1.6;
+    background-image: linear-gradient(
+            to bottom right,
+            rgba(30, 30, 29, 0.88),
+            rgba(69, 68, 67, 0.669)
+        ),
+        url(./assets/coverImg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    background-attachment: fixed;
+}
+.about_info {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    margin: auto;
+    transform: translate(-50%, -50%);
+}
+.vertical_line {
+    width: 90%;
+    margin: auto;
+    border-left: 2px solid #dfdfde;
+    height: 100px;
+    display: flex; /* ensure the container is a flex container */
+    align-items: center; /* center the button vertically */
+}
+.vertical_line Button {
+    margin-left: 10px; /* add a left margin of 10px */
+}
