@@ -32,7 +32,7 @@ export const RecentWork = ({ isDarkMode }) => {
     const titleStyle = isDarkMode ? { color: 'white' } : { color: '#332D2D' };
 
     return (
-        <div className="p-2" style={bgStyle}>
+        <div className="p-2" style={bgStyle} shadow-lg>
             <div className="d-flex justify-content-center text-light p-4">
                 <Row>
                     <h2 style={titleStyle}>Recent Work</h2>
@@ -40,9 +40,9 @@ export const RecentWork = ({ isDarkMode }) => {
 
             </div>
 
-            <div className="scrollable-container shadow-lg p-2 " style={{ maxHeight: '600px', overflowY: 'auto' }}>
+            <div className="scrollable-container shadow-lg p-3 mb-5 bg-light rounded " style={{ maxHeight: '550px', overflowY: 'auto' }}>
                 <Row className='text-center'>
-                    <h5 style={titleStyle} className='text-warning p-4'>There are 12 projects Scroll down for more projects</h5>
+                    <h3 style={titleStyle} className='text-dark p-4'>There are 12 projects in the box down to view them all.</h3>
                 </Row>
                 <Row className="d-flex gap-3 flex-wrap justify-content-around">
                     <Col xs={12} sm={5} md={4} lg={3}>

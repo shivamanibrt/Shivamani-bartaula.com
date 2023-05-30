@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
-import { Row, Col, Toast, Container } from "react-bootstrap";
+import { Row, Col, Toast } from "react-bootstrap";
 
 const ContactUsFile = ({ isDarkMode }) => {
     const bgStyle = isDarkMode ? { backgroundColor: '#212529' } : { backgroundColor: 'rgb(244, 241, 241)' };
@@ -67,7 +67,7 @@ const ContactUsFile = ({ isDarkMode }) => {
                                             id="user_name"
                                             value={formData.user_name}
                                             onChange={handleInputChange}
-                                            placeholder="Full Name"
+                                            placeholder="John Doe"
                                             required
                                         />
                                     </div>
@@ -80,7 +80,7 @@ const ContactUsFile = ({ isDarkMode }) => {
                                             id="user_email"
                                             value={formData.user_email}
                                             onChange={handleInputChange}
-                                            placeholder="Email"
+                                            placeholder="johnDoe@email.com"
                                             required
                                         />
                                     </div>
@@ -94,6 +94,7 @@ const ContactUsFile = ({ isDarkMode }) => {
                                             style={{ resize: "none" }}
                                             value={formData.message}
                                             onChange={handleInputChange}
+                                            placeholder="Type your message here"
                                         ></textarea>
                                     </div>
                                     <div className="text-center">
