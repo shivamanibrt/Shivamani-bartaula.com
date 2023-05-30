@@ -42,7 +42,7 @@ export const RecentWork = ({ isDarkMode }) => {
 
             <div className="scrollable-container shadow-lg p-3 mb-5 bg-light rounded " style={{ maxHeight: '550px', overflowY: 'auto' }}>
                 <Row className='text-center'>
-                    <h3 style={titleStyle} className='text-dark p-4'>There are 12 projects in the box down to view them all.</h3>
+                    <h3 style={titleStyle} className='text-dark p-4'>There are 12 projects in the box scroll down to view them all.</h3>
                 </Row>
                 <Row className="d-flex gap-3 flex-wrap justify-content-around">
                     <Col xs={12} sm={5} md={4} lg={3}>
