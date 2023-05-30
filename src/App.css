@@ -1,5 +1,5 @@
-.App {
-    height: 100vh;
+.main-child {
+    min-height: 80vh;
 }
 .navbar-brand-red:hover {
     color: #dc3545 !important;

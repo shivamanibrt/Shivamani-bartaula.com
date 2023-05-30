@@ -8,6 +8,7 @@ import todoListImg from '../assets/Todo-list.png'
 import notTodoListImg from '../assets/notodoList.png'
 import pigGameImg from '../assets/pigGame.png';
 import randomNumberImg from '../assets/randomNumberGenerator.png'
+import onlineLibraryImg from '../assets/onlineLibrary.png'
 
 
 export const RecentWork = ({ isDarkMode }) => {
@@ -20,6 +21,7 @@ export const RecentWork = ({ isDarkMode }) => {
     const notTodoList = 'https://not-todo-list-react-vy9d.vercel.app/';
     const pigGame = 'https://pig-game-js-lake.vercel.app/';
     const randomNumberGenerator = 'https://random-number-generator-js-seven.vercel.app/';
+    const library = 'https://onlinelibrary-kappa.vercel.app/signin';
 
     const bgStyle = isDarkMode ? { backgroundColor: '#212529' } : {};
     const titleStyle = isDarkMode ? { color: 'white' } : { color: '#332D2D' };
@@ -102,7 +104,7 @@ export const RecentWork = ({ isDarkMode }) => {
                     </a>
                 </Col>
                 <Col xs={12} sm={5} md={4} lg={3}>
-                    <a className="text-decoration-none" href={'pigGame'} target="_blank" rel="noreferrer">
+                    <a className="text-decoration-none" href={pigGame} target="_blank" rel="noreferrer">
                         <Card>
                             <Card.Img variant="top" src={pigGameImg} style={{ height: '200px' }} />
                             <Card.Body>
@@ -112,11 +114,11 @@ export const RecentWork = ({ isDarkMode }) => {
                     </a>
                 </Col>
                 <Col xs={12} sm={5} md={4} lg={3}>
-                    <a className="text-decoration-none" href='#' target="_blank" rel="noreferrer">
+                    <a className="text-decoration-none" href={library} target="_blank" rel="noreferrer">
                         <Card>
-                            <Card.Img variant="top" src={''} style={{ height: '200px' }} />
+                            <Card.Img variant="top" src={onlineLibraryImg} style={{ height: '200px' }} />
                             <Card.Body>
-                                <Card.Title className='d-flex justify-content-center'>Comming Soon</Card.Title>
+                                <Card.Title className='d-flex justify-content-center'>Online Library</Card.Title>
                             </Card.Body>
                         </Card>
                     </a>

@@ -46,7 +46,6 @@ export const TechStack = ({ isDarkMode }) => {
                         <Col>
                             <img class="programming_language_image" src={reduxImg} alt="reduxImg" />
                         </Col>
-
                     </Row>
                 </Container>
             </div>

@@ -7,12 +7,12 @@ import myPdf from "../assets/Shivamani-Bartaula-cv_1.pdf";
 import { Button } from 'react-bootstrap';
 
 export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
-    const hashnode = 'https://aayushbartaula.hashnode.dev/';
+    const hashnode = 'https://shivamani.hashnode.dev/';
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg={isDarkMode ? "dark" : "light"} variant={isDarkMode ? "dark" : "light"}>
                 <Container >
-                    <Navbar.Brand as={Link} to="all-component" className="navbar-brand-red">
+                    <Navbar.Brand as={Link} to="/" className="navbar-brand-red">
                         Shivamani
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

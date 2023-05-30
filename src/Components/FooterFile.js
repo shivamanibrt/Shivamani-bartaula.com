@@ -4,7 +4,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 export const FooterFile = ({ isDarkMode }) => {
     const linkedin = 'https://www.linkedin.com/in/shivamanibrt/';
     const twitter = 'https://twitter.com/Aayush_Bartaula';
-    const hashnode = 'https://aayushbartaula.hashnode.dev/';
+    const hashnode = 'https://shivamani.hashnode.dev/';
     const github = 'https://github.com/shivamanibrt';
 
     const bgStyle = isDarkMode ? { backgroundColor: '#454545' } : { backgroundColor: '#332D2D' };
