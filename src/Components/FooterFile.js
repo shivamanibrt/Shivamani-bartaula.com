@@ -11,24 +11,24 @@ export const FooterFile = ({ isDarkMode }) => {
     return (
         <>
             <div className='p-5' style={bgStyle}>
-                <Container className='justify-content-center '>
-                    <Row className='justify-content-center'>
-                        <Col>
+                <Container>
+                    <Row>
+                        <Col className='d-flex justify-content-center'>
                             <a href={linkedin} target='_blank' rel='noreferrer'>
                                 <i className='fa-brands fa-linkedin fa-xl ' alt='hashnode'></i>
                             </a>
                         </Col>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <a href={hashnode} target='_blank' rel='noreferrer'>
                                 <i className='fa-brands fa-hashnode fa-xl' alt='hashnode'></i>
                             </a>
                         </Col>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <a href={twitter} target='_blank' rel='noreferrer'>
                                 <i className='fa-brands fa-twitter fa-xl' alt='twitter'></i>
                             </a>
                         </Col>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <a href={github} target='_blank' rel='noreferrer'>
                                 <i className='fa-brands fa-github fa-xl' alt='github'></i>
                             </a>

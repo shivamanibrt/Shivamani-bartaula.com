@@ -25,6 +25,7 @@ export const NavigationBarFile = ({ isDarkMode, handleThemeChange }) => {
                             <Nav.Link as={Link} to="getInTouch">Get-in-touch</Nav.Link>
                             <Nav.Link as={Link} to="contactUsFile">Contact-Form</Nav.Link>
                         </Nav>
+
                         <Nav>
                             <Nav.Link href={myPdf} onClick={() => window.open(myPdf)} target="_blank" >
                                 <Button variant="danger" className='p-2'>

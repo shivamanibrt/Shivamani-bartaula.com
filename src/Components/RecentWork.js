@@ -36,11 +36,11 @@ export const RecentWork = ({ isDarkMode }) => {
             <div className="d-flex justify-content-center text-light p-4">
                 <Row>
                     <h2 style={titleStyle}>Recent Work</h2>
-                </Row>
+                </Row>s
 
             </div>
 
-            <div className="scrollable-container shadow-lg  " style={{ maxHeight: '600px', overflowY: 'auto' }}>
+            <div className="scrollable-container shadow-lg p-2 " style={{ maxHeight: '600px', overflowY: 'auto' }}>
                 <Row className='text-center'>
                     <h5 style={titleStyle} className='text-warning p-4'>There are 12 projects Scroll down for more projects</h5>
                 </Row>
