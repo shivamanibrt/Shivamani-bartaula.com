@@ -36,7 +36,7 @@ export const RecentWork = ({ isDarkMode }) => {
             <div className="d-flex justify-content-center text-light p-4">
                 <Row>
                     <h2 style={titleStyle}>Recent Work</h2>
-                </Row>s
+                </Row>
 
             </div>
 
